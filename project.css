@@ -1,0 +1,96 @@
+body{
+  margin:8vh 6vw;
+  font-synthesis: style;
+  letter-spacing: 3px;
+}
+
+/* Navigation Left */
+
+.caveat{
+  color: black;
+  font-family: "caveat";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.underline:active{
+  color: white;
+  background-color: black;
+}
+
+.underline{
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.underline::after{
+  display: block;
+  content: "";
+  width: 100px;
+  height: 1.7px;
+  background-color: black;
+}
+
+.clicked{
+  color: white;
+  background-color: black;
+}
+
+#side{
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10vh;
+  width: 9vw;
+}
+
+/* Logo */
+
+.gaegu{
+  font-size: 22px;
+  color: black;
+  font-family: "gaegu";
+  text-decoration: none;
+}
+
+#top{
+  margin: auto auto;
+  text-align: center;
+  width: 200px;
+  position: sticky;
+}
+
+/*Showcase*/
+#box{
+  margin-top: 8vh;
+  margin-left: 18vw;
+  position: static;
+}
+
+.box{
+  display: block;
+  height: 50vh;
+  width: 63vw;
+}
+
+/* Footer */
+.copyright{
+  float: right;
+  margin-top: 14vh;
+  font-size: 14px;
+  text-align: left;
+}
+
+#gap{
+  margin-top: 14vh;
+  font-size: 14px;
+  float: left;
+  margin-right: 1em;
+}
+
+.icon{
+  color: black;
+}
+
+.icon:hover{
+  color: #5E747A;
+}

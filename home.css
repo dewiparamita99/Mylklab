@@ -1,0 +1,108 @@
+body{
+  margin:8vh 6vw;
+  font-synthesis: style;
+  letter-spacing: 3px;
+}
+
+/* Navigation Left */
+
+.caveat{
+  color: black;
+  font-family: "caveat";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.underline:active{
+  color: white;
+  background-color: black;
+}
+
+.underline{
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.underline::after{
+  display: block;
+  content: "";
+  width: 100px;
+  height: 1.7px;
+  background-color: black;
+}
+
+#side{
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10vh;
+  width: 9vw;
+}
+
+/* Logo */
+
+.gaegu{
+  font-size: 22px;
+  color: black;
+  font-family: "gaegu";
+  text-decoration: none;
+}
+
+#top{
+  margin: auto auto;
+  text-align: center;
+  width: 200px;
+  position: sticky;
+}
+/*
+#top:hover{
+  text-indent: -9999px;
+  background-image: url('file:///Users/dewiparamita/Documents/blog/concrete/html/qq.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20vw;
+}
+
+#top:active{
+  filter: hue-rotate(270deg);
+} */
+
+/* Showcase */
+
+#box{
+  margin-top: 8vh;
+  margin-left: 18vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  position: static;
+}
+
+.img{
+  width: 21vw;
+  height: 50vh;
+  border: #5E747A solid thin;
+}
+
+/* Footer */
+.copyright{
+  float: right;
+  margin-top: 14vh;
+  font-size: 14px;
+  text-align: left;
+}
+
+#gap{
+  margin-top: 14vh;
+  font-size: 14px;
+  float: left;
+  margin-right: 1em;
+}
+
+.icon{
+  color: black;
+}
+
+.icon:hover{
+  color: #5E747A;
+}
