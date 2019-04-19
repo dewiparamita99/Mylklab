@@ -1,0 +1,36 @@
+body{
+  margin-top: 30vh;
+  margin: 25vh 40vw auto 40vw;
+}
+
+img{
+  width: 15vw;
+  display: block;
+  margin: auto auto;
+  position: static;
+}
+
+a{
+  text-decoration: none;
+}
+
+.click:hover{
+  color: grey;
+}
+
+img:hover{
+  filter: hue-rotate(270deg);
+}
+
+h4{
+  position: sticky;
+  font-family: "gaegu";
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-synthesis: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
