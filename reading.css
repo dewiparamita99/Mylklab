@@ -45,31 +45,20 @@ body{
 
 /* Logo */
 
-.gaegu{
-  font-size: 22px;
+.kalam{
   color: black;
-  font-family: "gaegu";
+  font-family: 'Boogaloo';
+  font-size: 30px;
   text-decoration: none;
 }
 
 #top{
   margin: auto auto;
+  height: 10vh;
   text-align: center;
   width: 200px;
   position: sticky;
 }
-
-/* #top:hover{
-  text-indent: -9999px;
-  background-image: url('file:///Users/dewiparamita/Documents/blog/concrete/html/qq.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#top:active{
-  filter: hue-rotate(270deg);
-} */
 
 /*Showcase*/
 #box{
@@ -79,23 +68,9 @@ body{
 }
 
 .box{
-  display: grid;
+  display: block;
   height: 50vh;
   width: 63vw;
-  grid-template-columns: auto auto;
-  grid-gap: 3vw;
-}
-
-.img{
-  margin: 0 auto;
-  height: 50vh;
-}
-
-.story{
-  margin: 0 auto;
-  font-family: "avenir next";
-  font-weight: 300;
-  font-size: 16px;
 }
 
 /* Footer */
