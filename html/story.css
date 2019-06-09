@@ -9,7 +9,7 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -19,14 +19,14 @@ body{
 }
 
 .underline{
-  width: 100px;
+  width: 90px;
   margin-bottom: 40px;
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: 100px;
+  width: 90px;
   height: 1.7px;
   background-color: black;
 }
