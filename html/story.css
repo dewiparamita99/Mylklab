@@ -153,7 +153,7 @@ body{
   }
 }
 
-@media (max-width:768vw) {
+@media screen (max-width:768vw) {
   .kalam{
     font-size: 50px;
   }
@@ -166,7 +166,7 @@ body{
   }
 }
 
-@media (max-width:800vw) {
+@media screen (max-width:800vw) {
   .kalam{
     font-size: 40px;
   }
@@ -182,7 +182,7 @@ body{
   }
 }
 
-@media (max-width:834vw) {
+@media screen (max-width:834vw) {
   .kalam{
     font-size: 50px;
   }
@@ -198,7 +198,7 @@ body{
   }
 }
 
-@media (max-width:1080vw) {
+@media screen (max-width:1080vw) {
   .kalam{
     font-size: 75px;
   }
