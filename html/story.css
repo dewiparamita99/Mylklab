@@ -226,19 +226,19 @@ body{
   }
 }
 
-@media (max-height: 900px){
+@media (max-height: 1200px){
   #top{
     margin: auto auto;
     height: 8vh;
     text-align: center;
-    width: 220px;
+    width: 200px;
     position: sticky;
   }
 
   .kalam{
     color: black;
     font-family: 'Boogaloo';
-    font-size: 30px;
+    font-size: 12px;
     text-decoration: none;
   }
 
@@ -260,7 +260,7 @@ body{
   .story{
     padding: 3vh;
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .box{
@@ -281,7 +281,7 @@ body{
   }
 }
 
-@media (max-height: 1200px){
+/* @media (max-height: 1200px){
   #top{
     margin: auto auto;
     height: 10vh;
@@ -334,9 +334,9 @@ body{
     line-height: 5vh;
     text-align: center;
   }
-}
+} */
 
-@media (min-height: 1200px){
+@media (max-height: 1800px){
   #top{
     margin: auto auto;
     height: 10vh;
@@ -362,13 +362,68 @@ body{
   .img{
     display: flex;
     justify-content: center;
-    padding: 5vh;
+    padding: 3vh;
     margin: auto auto;
     height: 40vh;
   }
 
   .story{
-    padding: 5vh;
+    padding: 3vh;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .box{
+    margin: auto auto;
+    width: 80vw;
+  }
+
+  #box{
+    margin: auto auto;
+    position: static;
+  }
+
+  footer{
+    padding: 2vh;
+    font-size: calc(3px + 0.5vh);
+    line-height: 5vh;
+    text-align: center;
+  }
+}
+
+@media (max-height: 2700px){
+  #top{
+    margin: auto auto;
+    height: 10vh;
+    text-align: center;
+    width: 250px;
+    position: sticky;
+  }
+
+  .kalam{
+    color: black;
+    font-family: 'Boogaloo';
+    font-size: 70px;
+    text-decoration: none;
+  }
+
+  #side{
+    visibility: collapse;
+    position: absolute;
+    margin-top: 10vh;
+    width: 9vw;
+  }
+
+  .img{
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    margin: auto auto;
+    height: 40vh;
+  }
+
+  .story{
+    padding: 3vh;
     text-align: center;
     font-size: 24px;
   }
