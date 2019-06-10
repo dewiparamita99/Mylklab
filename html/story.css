@@ -113,14 +113,29 @@ body{
   color: #5E747A;
 }
 
+/* Landscape*/
+@media screen (max-width:1112vw) {
+  #side{
+    visibility: visible;
+  }
+  .box{
+    display: grid;
+    height: 50vh;
+    width: 63vw;
+    grid-template-columns: auto auto;
+    grid-gap: 3vw;
+  }
+}
+
+
 /* Mobile */
 
 @media (max-width:450vw) {
   .kalam{
-    font-size: 20px;
+    font-size: 30px;
   }
   #side{
-    visibility: collapse;
+    visibility: hidden;
     }
 
   #box{
@@ -140,7 +155,7 @@ body{
     padding: 3vh;
   }
   .story{
-    font-size: 10px;
+    font-size: 20px;
   }
 
   #gap , .copyright{
@@ -152,6 +167,7 @@ body{
     text-align: center;
   }
 }
+
 
 @media screen (max-width:768vw) {
   .kalam{
