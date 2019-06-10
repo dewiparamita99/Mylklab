@@ -54,14 +54,13 @@ body{
 .kalam{
   color: black;
   font-family: 'Boogaloo';
-  font-size: 30px;
   text-decoration: none;
 }
 
 #top{
   margin: auto auto;
   text-align: center;
-  width: 200px;
+  width: 300px;
   position: sticky;
 }
 
@@ -81,14 +80,14 @@ body{
 }
 
 .img{
-  height: 30vh;
+  height: 40vh;
 }
 
 .story{
   white-space: pre-wrap;
   font-family: "avenir next";
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Footer */
@@ -117,9 +116,13 @@ body{
 /* Mobile */
 
 @media (max-width:450vw) {
+  .kalam{
+    font-size: 20px;
+  }
   #side{
     visibility: collapse;
     }
+
   #box{
     margin-left: 5vw;
     margin-right: 5vw;
@@ -142,8 +145,68 @@ body{
   }
   footer{
     margin: auto auto;
-    line-height: 4vh;
+    line-height: calc(3vh + 2vw);
     text-align: center;
   }
+}
 
+@media (max-width:768vw) {
+  .kalam{
+    font-size: 50px;
+  }
+  .story{
+    font-size: 20px;
+  }
+  footer{
+    margin-top: -5vh;
+    line-height: calc(3vh + 1vw);
+  }
+}
+
+@media (max-width:800vw) {
+  .kalam{
+    font-size: 40px;
+  }
+  .img{
+    height: 40vh;
+  }
+  .story{
+    font-size: 15px;
+  }
+  footer{
+    margin-top: -3vh;
+    line-height: calc(3vh + 1vw);
+  }
+}
+
+@media (max-width:834vw) {
+  .kalam{
+    font-size: 50px;
+  }
+  .img{
+    height: 25vh;
+  }
+  .story{
+    font-size: 25px;
+  }
+  footer{
+    margin-top: -5vh;
+    line-height: calc(3vh + 1vw);
+  }
+}
+
+@media (max-width:1080vw) {
+  .kalam{
+    font-size: 75px;
+  }
+  .img{
+    height: 35vh;
+  }
+  .story{
+    font-size: 35px;
+  }
+  footer{
+    margin-top: -7vh;
+    line-height: calc(2.5vh);
+  }
 }
