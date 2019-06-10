@@ -10,10 +10,12 @@ body{
   overflow-x: hidden;
 }
 
+/* Navigation Left */
+
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -23,14 +25,14 @@ body{
 }
 
 .underline{
-  width: 90px;
+  width: 100px;
   margin-bottom: 40px;
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: 90px;
+  width: 100px;
   height: 1.7px;
   background-color: black;
 }
@@ -41,16 +43,67 @@ body{
 }
 
 #side{
+  cursor: pointer;
   position: absolute;
   margin-top: 10vh;
   width: 9vw;
 }
 
+/* Logo */
+
+.kalam{
+  color: black;
+  font-family: 'Boogaloo';
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#top{
+  margin: auto auto;
+  text-align: center;
+  width: 200px;
+  position: sticky;
+}
+
+/*Showcase*/
+#box{
+  margin-top: 8vh;
+  margin-left: 18vw;
+  position: static;
+}
+
+.box{
+  display: grid;
+  height: 50vh;
+  width: 63vw;
+  grid-template-columns: auto auto;
+  grid-gap: 3vw;
+}
+
+.img{
+  height: 30vh;
+}
+
 .story{
   white-space: pre-wrap;
-  margin: 0 auto;
   font-family: "avenir next";
   font-weight: 300;
+  font-size: 14px;
+}
+
+/* Footer */
+.copyright{
+  float: right;
+  margin-top: 14vh;
+  font-size: 14px;
+  text-align: left;
+}
+
+#gap{
+  margin-top: 14vh;
+  font-size: 14px;
+  float: left;
+  margin-right: 1em;
 }
 
 .icon{
@@ -61,387 +114,36 @@ body{
   color: #5E747A;
 }
 
-/*Showcase*/
+/* Mobile */
 
-@media (max-width:900px){
-
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 200px;
-    position: sticky;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 30px;
-    text-decoration: none;
-  }
-
+@media (max-width:450vw) {
   #side{
     visibility: collapse;
-    position: absolute;
-    margin-top: 10vh;
-    width: 9vw;
+    }
+  #box{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: -3vh;
   }
-
+  .box{
+    display: contents;
+    margin: auto auto;
+    text-align: center;
+  }
   .img{
     display: flex;
-    justify-content: center;
-    padding: 5vh;
     margin: auto auto;
-    height: 50vh;
-  }
-
-  .story{
-    padding: 5vh;
-    text-align: center;
-    font-size: calc(12px + 0.5vw);
-  }
-
-  .box{
-    margin: auto auto;
-    width: 80vw;
-  }
-
-  #box{
-    margin: auto auto;
-    position: static;
-  }
-
-  footer{
-    padding: 2vh;
-    font-size: calc(3px + 0.5vh);
-    line-height: 10vh;
-    text-align: center;
-  }
-}
-
-@media (min-width:900px){
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 30px;
-    text-decoration: none;
-  }
-
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 250px;
-    position: sticky;
-  }
-
-  .caveat{
-    color: black;
-    font-family: "caveat";
-    font-size: 15px;
-    text-decoration: none;
-  }
-
-  .img{
-    margin: 0 auto;
-    height: 50vh;
-  }
-
-  .story{
-    font-size: 15px;
-  }
-
-  #box{
-    margin-top: 6vh;
-    margin-left: 12vw;
-    position: static;
-  }
-
-  .box{
-    display: grid;
-    height: 50vh;
-    width: 74vw;
-    grid-template-columns: auto auto;
-    grid-gap: 3vw;
-  }
-
-  .copyright{
-    float: right;
-  }
-
-  footer{
-    margin-top: 14vh;
-    font-size: calc(10px + 0.1vw);
-  }
-
-  #gap{
-    float: left;
-    margin-right: 1em;
-  }
-
-}
-
-@media (min-width:1500px){
-  .caveat{
-    font-size: 15px;
-  }
-  .underline{
-    width: 90px;
-  }
-  .underline::after{
-    width: 90px;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 30px;
-    text-decoration: none;
-  }
-
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 250px;
-    position: sticky;
-  }
-
-  #box{
-    margin-top: 6vh;
-    margin-left: 12vw;
-    position: static;
-  }
-
-  .box{
-    display: grid;
-    height: 50vh;
-    width: 74vw;
-    grid-template-columns: auto auto;
-    grid-gap: 3vw;
-  }
-
-  .story{
-    font-size: 15px;
-  }
-}
-/*
-@media (max-height: 900px){
-  #top{
-    margin: auto auto;
-    height: 8vh;
-    text-align: center;
-    width: 200px;
-    position: sticky;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 12px;
-    text-decoration: none;
-  }
-
-  #side{
-    visibility: collapse;
-    position: absolute;
-    margin-top: 10vh;
-    width: 9vw;
-  }
-
-  .img{
-    display: flex;
-    justify-content: center;
-    padding: 4vh;
-    margin: auto auto;
-    height: 30vh;
-  }
-
-  .story{
-    padding: 3vh;
-    text-align: center;
-    font-size: 10px;
-  }
-
-  .box{
-    margin: auto auto;
-    width: 80vw;
-  }
-
-  #box{
-    margin: auto auto;
-    position: static;
-  }
-
-  footer{
-    padding: 2vh;
-    font-size: calc(3px + 0.5vh);
-    line-height: 5vh;
-    text-align: center;
-  }
-}
-
-@media (max-height: 1200px){
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 220px;
-    position: sticky;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 60px;
-    text-decoration: none;
-  }
-
-  #side{
-    visibility: collapse;
-    position: absolute;
-    margin-top: 10vh;
-    width: 9vw;
-  }
-
-  .img{
-    display: flex;
-    justify-content: center;
-    padding: 5vh;
-    margin: auto auto;
-    height: 40vh;
-  }
-
-  .story{
-    padding: 5vh;
-    text-align: center;
-    font-size: 20px;
-  }
-
-  .box{
-    margin: auto auto;
-    width: 80vw;
-  }
-
-  #box{
-    margin: auto auto;
-    position: static;
-  }
-
-  footer{
-    padding: 2vh;
-    font-size: calc(3px + 0.5vh);
-    line-height: 5vh;
-    text-align: center;
-  }
-}
-
-@media (max-height: 1800px){
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 250px;
-    position: sticky;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 70px;
-    text-decoration: none;
-  }
-
-  #side{
-    visibility: collapse;
-    position: absolute;
-    margin-top: 10vh;
-    width: 9vw;
-  }
-
-  .img{
-    display: flex;
     justify-content: center;
     padding: 3vh;
-    margin: auto auto;
-    height: 40vh;
   }
 
-  .story{
-    padding: 3vh;
-    text-align: center;
-    font-size: 24px;
+  #gap , .copyright{
+    float: none;
   }
-
-  .box{
-    margin: auto auto;
-    width: 80vw;
-  }
-
-  #box{
-    margin: auto auto;
-    position: static;
-  }
-
   footer{
-    padding: 2vh;
-    font-size: calc(3px + 0.5vh);
-    line-height: 5vh;
+    margin: auto auto;
+    line-height: 4vh;
     text-align: center;
   }
+
 }
-
-@media (max-height: 2700px){
-  #top{
-    margin: auto auto;
-    height: 10vh;
-    text-align: center;
-    width: 250px;
-    position: sticky;
-  }
-
-  .kalam{
-    color: black;
-    font-family: 'Boogaloo';
-    font-size: 70px;
-    text-decoration: none;
-  }
-
-  #side{
-    visibility: collapse;
-    position: absolute;
-    margin-top: 10vh;
-    width: 9vw;
-  }
-
-  .img{
-    display: flex;
-    justify-content: center;
-    padding: 3vh;
-    margin: auto auto;
-    height: 40vh;
-  }
-
-  .story{
-    padding: 3vh;
-    text-align: center;
-    font-size: 24px;
-  }
-
-  .box{
-    margin: auto auto;
-    width: 80vw;
-  }
-
-  #box{
-    margin: auto auto;
-    position: static;
-  }
-
-  footer{
-    padding: 2vh;
-    font-size: calc(3px + 0.5vh);
-    line-height: 5vh;
-    text-align: center;
-  }
-} */
