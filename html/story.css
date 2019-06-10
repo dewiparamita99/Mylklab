@@ -225,8 +225,8 @@ body{
     font-size: 25px;
   }
 }
-
-@media (max-height: 1200px){
+/* 
+@media (max-height: 900px){
   #top{
     margin: auto auto;
     height: 8vh;
@@ -281,7 +281,7 @@ body{
   }
 }
 
-/* @media (max-height: 1200px){
+@media (max-height: 1200px){
   #top{
     margin: auto auto;
     height: 10vh;
@@ -334,7 +334,7 @@ body{
     line-height: 5vh;
     text-align: center;
   }
-} */
+}
 
 @media (max-height: 1800px){
   #top{
@@ -444,4 +444,4 @@ body{
     line-height: 5vh;
     text-align: center;
   }
-}
+} */
