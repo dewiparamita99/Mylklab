@@ -139,6 +139,9 @@ body{
     justify-content: center;
     padding: 3vh;
   }
+  .story{
+    font-size: 10px;
+  }
 
   #gap , .copyright{
     float: none;
