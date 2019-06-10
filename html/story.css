@@ -113,30 +113,15 @@ body{
   color: #5E747A;
 }
 
-/* Landscape*/
-@media screen (max-width:1112vw) {
-  #side{
-    visibility: visible;
-  }
-  .box{
-    display: grid;
-    height: 50vh;
-    width: 63vw;
-    grid-template-columns: auto auto;
-    grid-gap: 3vw;
-  }
-}
-
-
-/* Mobile */
+/* Mobile Portrait + Landscape */
 
 @media (max-width:450vw) {
+  #side{
+    visibility: collapse;
+  }
   .kalam{
     font-size: 30px;
   }
-  #side{
-    visibility: hidden;
-    }
 
   #box{
     margin-left: 5vw;
@@ -168,6 +153,7 @@ body{
   }
 }
 
+/* Tablet - Laptop Portrait */
 
 @media screen (max-width:768vw) {
   .kalam{
@@ -228,4 +214,9 @@ body{
     margin-top: -7vh;
     line-height: calc(2.5vh);
   }
+}
+
+/* Landscape*/
+@media screen (min-width:1112vw) (max-width:1206vw) {
+
 }
