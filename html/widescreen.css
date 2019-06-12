@@ -10,29 +10,27 @@ body{
   overflow-x: hidden;
 }
 
-/* Navigation Left */
-
-/* .caveat{
+.caveat{
   color: black;
   font-family: "caveat";
-  font-size: 14px;
+  font-size: calc(14px + 0.2vw);
   text-decoration: none;
-} */
+}
 
-/* .underline:active{
+.underline:active{
   color: white;
   background-color: black;
 }
 
 .underline{
   width: 100px;
-  margin-bottom: 40px;
+  margin-bottom: calc(40px + 0.2vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: 100px;
+  width: calc(100px + 0.2vw);
   height: 1.7px;
   background-color: black;
 }
@@ -47,16 +45,7 @@ body{
   position: absolute;
   margin-top: 10vh;
   width: 9vw;
-} */
-
-/* Logo */
-
-/* .kalam{
-  color: black;
-  font-family: 'Boogaloo';
-  font-size: calc(30px + 1vh);
-  text-decoration: none;
-} */
+}
 
 #top{
   margin: auto auto;
@@ -65,44 +54,51 @@ body{
   position: sticky;
 }
 
-/*Showcase*/
+.kalam{
+  color: black;
+  font-family: 'Boogaloo';
+  font-size: calc(30px + 0.2vw);
+  text-decoration: none;
+}
+
 #box{
   margin-top: 8vh;
-  margin-left: 18vw;
+  margin-left: 15vw;
   position: static;
 }
 
-/* .box{
+.box{
   display: grid;
   height: 50vh;
-  width: 63vw;
+  width: 72vw;
   grid-template-columns: auto auto;
   grid-gap: 3vw;
-} */
+}
 
-/* .img{
+.img{
   height: 50vh;
-} */
+}
 
 .story{
   white-space: pre-wrap;
   font-family: "avenir next";
   font-weight: 300;
+  font-size: calc(14px + 0.2vw);
 }
-
-/* Footer */
 
 .copyright{
+  float: right;
   margin-top: 14vh;
+  font-size: calc(12px + 0.2vh);
   text-align: left;
 }
-/*
+
 #gap{
-  margin-top: 14vh;
+  margin-top: calc(14vh + 0.2vh);
   font-size: 14px;
   float: left;
   margin-right: 1em;
-} */
+}
 
 .icon{
   color: black;
