@@ -44,7 +44,7 @@ body{
 .img{
   margin: 0 0;
   border: #5E747A solid thin;
-  width: calc(32vw + 2.2vw);
+  width: calc(35vw + 2.2vw);
   height: calc(50vh + 2.2vh);
 }
 
