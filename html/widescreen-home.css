@@ -64,7 +64,7 @@ body{
 #box{
   margin-top: 6vh;
   margin-left: 15vw;
-  height: 50vh;
+  height: 48vh;
   max-width: 72vw;
   position: static;
   display: inline-grid;
@@ -76,7 +76,7 @@ body{
   margin: 0 0;
   border: #5E747A solid thin;
   width: 20vw;
-  height: 47vh;
+  height: 45vh;
 }
 
 .copyright{
