@@ -24,13 +24,13 @@ body{
 
 .underline{
   width: 100px;
-  margin-bottom: calc(40px + 0.2vw);
+  margin-bottom: calc(40px + 0.1vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: calc(100px + 0.2vw);
+  width: calc(100px + 0.1vw);
   height: 1.7px;
   background-color: black;
 }
@@ -84,10 +84,6 @@ body{
   font-family: "avenir next";
   font-weight: 300;
   font-size: calc(10px + 0.2vw);
-}
-
-footer{
-  margin-top: 2.5vh
 }
 
 .copyright{
