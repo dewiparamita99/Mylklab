@@ -82,12 +82,12 @@ body{
 .copyright{
   float: right;
   margin-top: 14vh;
-  font-size: calc(12px + 0.2vh);
+  font-size: 14px;
   text-align: left;
 }
 
 #gap{
-  margin-top: calc(14vh + 0.2vh);
+  margin-top: 14vh;
   font-size: 14px;
   float: left;
   margin-right: 1em;
