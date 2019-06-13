@@ -1,0 +1,94 @@
+body{
+  margin:8vh 6vw;
+  font-synthesis: style;
+  letter-spacing: 3px;
+}
+
+#side{
+  display: none;
+}
+
+#top{
+  margin: auto auto;
+  text-align: center;
+  width: 300px;
+  position: sticky;
+}
+
+.kalam{
+  color: black;
+  font-family: 'Boogaloo';
+  font-size: calc(12px + 2.5vh);
+  text-decoration: none;
+}
+
+#box{
+  margin-top: -3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: static;
+  margin-bottom: 7em;
+}
+
+.box{
+  display: block;
+  margin: auto auto;
+  text-align: center;
+}
+
+.img{
+  padding: 2vh;
+  height: calc(22vh + 2.2vh);
+}
+
+.img:hover{
+  filter: hue-rotate(270deg);
+}
+
+.black{
+  color: black;
+}
+
+.mail:hover{
+  color: #DA8469;
+}
+
+.avenirbold{
+  font-family: "avenir next";
+  font-weight: 600;
+}
+
+.bigger{
+  font-size: calc(5px + 0.8vh);
+}
+
+.avenir{
+  color: black;
+  font-weight: 300;
+  font-family: "avenir next";
+}
+
+.caveat{
+  color: black;
+  font-family: "caveat";
+  font-size: calc(12px + 0.2vw);
+  text-decoration: none;
+}
+
+.copyright{
+  font-size: calc(5px + 0.8vh);
+}
+
+.icon{
+  color: black;
+}
+
+.icon:hover{
+  color: #5E747A;
+}
+
+footer{
+  margin: auto auto;
+  line-height: calc(3vh + 2vw);
+  text-align: center;
+}
