@@ -13,7 +13,7 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(14px + 0.1vw);
+  font-size: calc(10px + 0.2vw);
   text-decoration: none;
 }
 
@@ -24,13 +24,13 @@ body{
 
 .underline{
   width: 100px;
-  margin-bottom: calc(40px + 0.1vw);
+  margin-bottom: calc(40px + 0.2vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: calc(100px + 0.1vw);
+  width: calc(100px + 0.2vw);
   height: 1.7px;
   background-color: black;
 }
@@ -83,7 +83,7 @@ body{
   white-space: pre-wrap;
   font-family: "avenir next";
   font-weight: 300;
-  font-size: calc(12px + 0.1vw);
+  font-size: calc(10px + 0.2vw);
 }
 
 .copyright{
