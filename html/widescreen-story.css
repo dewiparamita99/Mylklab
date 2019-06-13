@@ -86,15 +86,17 @@ body{
   font-size: calc(10px + 0.2vw);
 }
 
+footer{
+  margin-top: 15vh;
+}
+
 .copyright{
   float: right;
-  margin-top: 14vh;
   font-size: 14px;
   text-align: left;
 }
 
 #gap{
-  margin-top: 14vh;
   font-size: 14px;
   float: left;
   margin-right: 1em;

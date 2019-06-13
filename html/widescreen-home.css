@@ -79,15 +79,17 @@ body{
   height: 45vh;
 }
 
+footer{
+  margin-top: 13vh;
+}
+
 .copyright{
   float: right;
-  margin-top: 12vh;
   font-size: 14px;
   text-align: left;
 }
 
 #gap{
-  margin-top: 12vh;
   font-size: 14px;
   float: left;
   margin-right: 1em;
