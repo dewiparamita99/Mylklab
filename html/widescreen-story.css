@@ -4,6 +4,10 @@ body{
   letter-spacing: 3px;
 }
 
+#myNav , #menu{
+  display: none;
+}
+
 .scrolling{
   scroll-behavior: smooth;
   overflow-y: visible;

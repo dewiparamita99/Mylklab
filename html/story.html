@@ -13,11 +13,25 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
   </head>
   <body>
+    <span id="menu" onclick="openNav()">&#9776; </span>
+
     <!--Logo-->
     <div id="top">
       <a class="kalam" href="../html/home.html">
         <h4>Mylk Lab</h4>
       </a>
+    </div>
+
+    <!--Overlay-->
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="../html/story.html" class="caveat"><h4 class="underline">STORY</h4></a>
+        <a href="../html/reading.html" class="caveat"><h4 class="underline">READING</h4></a>
+        <a href="../html/contact.html" class="caveat"><h4 class="underline">CONTACT</h4></a>
+        <a href="https://www.tokopedia.com/ddeusa?nref=shphead" class="caveat" target="_blank"><h4 class="underline">SHOP</h4></a>
+      </div>
     </div>
 
     <!--Navigation Kiri-->
@@ -50,5 +64,17 @@
       </div>
       <span class="copyright">©2019 Mylk Lab. All Rights Reserved.</span>
     </footer>
+
+    <!--JS-->
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+    
   </body>
 </html>

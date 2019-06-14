@@ -92,3 +92,51 @@ footer{
   line-height: calc(3vh + 2vw);
   text-align: center;
 }
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.overlay a {
+  padding: 2vh;
+  text-decoration: none;
+  font-size: calc(12px + 2vh);
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#menu{
+  cursor: pointer;
+  position: fixed;
+  font-size: calc(12px + 2.5vh);
+  margin-left: 6vw;
+}
