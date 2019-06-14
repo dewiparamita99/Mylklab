@@ -98,7 +98,7 @@ footer{
 .overlay a {
   padding: 2vh;
   text-decoration: none;
-  font-size: calc(12px + 2vh);
+  font-size: calc(12px + 1.5vh);
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -117,7 +117,7 @@ footer{
 
 #menu{
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   font-size: calc(12px + 2.5vh);
   margin-left: 6vw;
 }
