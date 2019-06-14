@@ -4,12 +4,20 @@ body{
   letter-spacing: 3px;
 }
 
-/* Navigation Left */
+#myNav , #menu{
+  display: none;
+}
+
+.scrolling{
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
 
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: 14px;
+  font-size: calc(10px + 0.2vw);
   text-decoration: none;
 }
 
@@ -19,14 +27,14 @@ body{
 }
 
 .underline{
-  width: 90px;
-  margin-bottom: 40px;
+  width: 100px;
+  margin-bottom: calc(40px + 0.1vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: 90px;
+  width: calc(100px + 0.1vw);
   height: 1.7px;
   background-color: black;
 }
@@ -43,79 +51,49 @@ body{
   width: 9vw;
 }
 
-/* Logo */
+#top{
+  margin: auto auto;
+  text-align: center;
+  width: 300px;
+  position: sticky;
+}
 
 .kalam{
   color: black;
   font-family: 'Boogaloo';
-  font-size: 30px;
+  font-size: calc(30px + 0.2vw);
   text-decoration: none;
 }
 
-#top{
-  margin: auto auto;
-  height: 10vh;
-  text-align: center;
-  width: 200px;
-  position: sticky;
-}
-
-/*Showcase*/
 #box{
-  margin-top: 8vh;
-  position: static;
-}
-
-.box{
+  margin-top: 7vh;
+  margin-left: 15vw;
   height: 50vh;
-  display: block;
-  margin: auto auto;
-  text-align: center;
+  max-width: 72vw;
+  position: static;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1vw;
 }
 
 .img{
-  height: 30vh;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0 0;
+  border: #5E747A solid thin;
+  width: 20vw;
+  height: 45vh;
 }
 
-.img:hover{
-  filter: hue-rotate(270deg);
+footer{
+  margin-top: 11vh;
 }
 
-.black{
-  color: black;
-}
-
-.mail:hover{
-  color: #DA8469;
-}
-
-.avenirbold{
-  font-family: "avenir next";
-  font-weight: 600;
-}
-
-.bigger{
-  font-size: 25px;
-}
-
-.avenir{
-  color: black;
-  font-weight: 300;
-  font-family: "avenir next";
-}
-
-/* Footer */
 .copyright{
   float: right;
-  margin-top: 14vh;
   font-size: 14px;
   text-align: left;
 }
 
 #gap{
-  margin-top: 14vh;
   font-size: 14px;
   float: left;
   margin-right: 1em;
