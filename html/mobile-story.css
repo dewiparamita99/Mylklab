@@ -81,22 +81,21 @@ footer{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: white;
+  background-color: rgba(255,255,255, 0.95);
   overflow-y: hidden;
   transition: 0.5s;
 }
 
 .overlay-content {
   position: relative;
-  top: 5%;
+  top: 15%;
   width: 100%;
   text-align: center;
-  margin-top: 10vh;
 }
 
 .overlay a {
-  padding: 2vh;
+  padding: 1vh;
   text-decoration: none;
   font-size: calc(12px + 1vh);
   color: #818181;
@@ -105,19 +104,20 @@ footer{
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: black;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 6%;
+  right: 8vw;
+  font-size: calc(18px + 4vh);
 }
 
 #menu{
   cursor: pointer;
   position: absolute;
   font-size: calc(12px + 2.5vh);
+  padding: 1vw;
   margin-left: 6vw;
 }
