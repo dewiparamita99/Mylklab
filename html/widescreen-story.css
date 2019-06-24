@@ -4,6 +4,16 @@ body{
   letter-spacing: 3px;
 }
 
+@font-face {
+    font-family: 'letter-bold';
+    src: url('/Users/dewiparamita/Library/Fonts/LetterGothicStd-Bold.ttf ');
+}
+
+@font-face {
+    font-family: 'letter';
+    src: url('/Users/dewiparamita/Library/Fonts/LetterGothicStd-slanted.ttf ');
+}
+
 #myNav , #menu{
   display: none;
 }
@@ -16,7 +26,7 @@ body{
 
 .caveat{
   color: black;
-  font-family: "caveat";
+  font-family: 'letter';
   font-size: calc(10px + 0.2vw);
   text-decoration: none;
 }
@@ -34,7 +44,7 @@ body{
 .underline::after{
   display: block;
   content: "";
-  width: calc(100px + 0.1vw);
+  width: 100px;
   height: 1.7px;
   background-color: black;
 }
@@ -60,7 +70,7 @@ body{
 
 .kalam{
   color: black;
-  font-family: 'Boogaloo';
+  font-family: 'letter-bold';
   font-size: calc(30px + 0.2vw);
   text-decoration: none;
 }
@@ -96,12 +106,12 @@ footer{
 
 .copyright{
   float: right;
-  font-size: 14px;
+  font-size: calc(10px + 0.2vw);
   text-align: left;
 }
 
 #gap{
-  font-size: 14px;
+  font-size: calc(10px + 0.2vw);
   float: left;
   margin-right: 1em;
 }
