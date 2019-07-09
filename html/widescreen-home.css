@@ -8,6 +8,11 @@ body{
   display: none;
 }
 
+h4:hover{
+  display: block;
+  src: url('html/wave.png');
+}
+
 .scrolling{
   scroll-behavior: smooth;
   overflow-y: hidden;
