@@ -17,14 +17,29 @@ body{
 #top{
   margin: auto auto;
   text-align: center;
-  width: 300px;
+  height: 5vh;
+  margin-bottom: 7vh;
   position: sticky;
+}
+
+.logo{
+  display: none;
+  height: 5vh;
+  margin: auto auto;
+}
+
+#top:hover h4{
+  display: none;
+}
+
+#top:hover .logo {
+  display: block;
 }
 
 .kalam{
   color: black;
   font-family: 'Boogaloo';
-  font-size: calc(12px + 2.5vh);
+  font-size: 5vh;
   text-decoration: none;
 }
 
@@ -116,7 +131,7 @@ footer{
 #menu{
   cursor: pointer;
   position: absolute;
-  font-size: calc(12px + 2.5vh);
+  font-size: 5vh;
   padding: 1vw;
-  margin-left: 6vw;
+  margin-left: 5vw;
 }

@@ -54,14 +54,29 @@ body{
 #top{
   margin: auto auto;
   text-align: center;
-  width: 300px;
+  height: 5vh;
+  margin-bottom: 7vh;
   position: sticky;
+}
+
+.logo{
+  display: none;
+  height: 5vh;
+  margin: auto auto;
+}
+
+#top:hover h4{
+  display: none;
+}
+
+#top:hover .logo {
+  display: block;
 }
 
 .kalam{
   color: black;
   font-family: 'Boogaloo';
-  font-size: calc(30px + 0.2vw);
+  font-size: 5vh;
   text-decoration: none;
 }
 
