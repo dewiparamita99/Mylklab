@@ -28,11 +28,6 @@ body{
   text-decoration: none;
 }
 
-h4:hover{
-  display: block;
-  src: url('../html/wave.png');
-}
-
 #box{
   margin-top: 1.5vh;
   margin-left: 5vw;

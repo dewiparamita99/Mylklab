@@ -65,9 +65,8 @@ body{
   text-decoration: none;
 }
 
-h4:hover{
-  display: block;
-  src: url('../html/wave.png');
+.kalam:hover{
+  src: 'html/wave.png';
 }
 
 #box{
