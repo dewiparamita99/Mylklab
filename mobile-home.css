@@ -28,14 +28,6 @@ body{
   margin: auto auto;
 }
 
-#top:hover h4{
-  display: none;
-}
-
-#top:hover .logo {
-  display: block;
-}
-
 .kalam{
   color: black;
   font-family: 'Boogaloo';

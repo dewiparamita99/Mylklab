@@ -22,14 +22,6 @@ body{
   margin: auto auto;
 }
 
-#top:hover h4{
-  display: none;
-}
-
-#top:hover .logo {
-  display: block;
-}
-
 .kalam{
   color: black;
   font-family: 'Boogaloo';
@@ -41,8 +33,8 @@ body{
   margin-top: -2vh;
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-bottom: 3em;
   position: static;
+  margin-bottom: 3em;
 }
 
 .box{
@@ -53,7 +45,7 @@ body{
 
 .img{
   padding: 2vh;
-  height: calc(25vh + 2.2vh);
+  height: calc(22vh + 2.2vh);
 }
 
 .img:hover{
@@ -74,7 +66,7 @@ body{
 }
 
 .bigger{
-  font-size: calc(16px + 1vh);
+  font-size: calc(5px + 0.8vh);
 }
 
 .avenir{
@@ -86,12 +78,12 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(14px + 1vw);
+  font-size: calc(12px + 0.2vw);
   text-decoration: none;
 }
 
 .copyright{
-  font-size: calc(10px + 1vh);
+  font-size: calc(5px + 0.8vh);
 }
 
 .icon{

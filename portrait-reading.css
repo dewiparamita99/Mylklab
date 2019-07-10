@@ -4,6 +4,12 @@ body{
   letter-spacing: 3px;
 }
 
+.scrolling{
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
 #side{
   display: none;
 }
@@ -22,13 +28,6 @@ body{
   margin: auto auto;
 }
 
-#top:hover h4{
-  display: none;
-}
-
-#top:hover .logo {
-  display: block;
-}
 .kalam{
   color: black;
   font-family: 'Boogaloo';
@@ -37,60 +36,34 @@ body{
 }
 
 #box{
-  margin-top: -2vh;
+  margin-top: 1.5vh;
   margin-left: 5vw;
   margin-right: 5vw;
+  height: calc(53vh + 2.2vh);
+  max-width: 80vw;
   position: static;
-  margin-bottom: 3em;
-}
-
-.box{
-  display: block;
-  margin: auto auto;
-  text-align: center;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3vw;
+  margin-bottom: 8vh;
 }
 
 .img{
-  padding: 2vh;
-  height: calc(22vh + 2.2vh);
-}
-
-.img:hover{
-  filter: hue-rotate(270deg);
-}
-
-.black{
-  color: black;
-}
-
-.mail:hover{
-  color: #DA8469;
-}
-
-.avenirbold{
-  font-family: "avenir next";
-  font-weight: 600;
-}
-
-.bigger{
-  font-size: calc(5px + 0.8vh);
-}
-
-.avenir{
-  color: black;
-  font-weight: 300;
-  font-family: "avenir next";
+  margin: 0 0;
+  border: #5E747A solid thin;
+  width: calc(35vw + 2.2vw);
+  height: calc(50vh + 2.2vh);
 }
 
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(12px + 0.2vw);
+  font-size: calc(14px + 1vw);
   text-decoration: none;
 }
 
 .copyright{
-  font-size: calc(5px + 0.8vh);
+  font-size: calc(10px + 1vh);
 }
 
 .icon{

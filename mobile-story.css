@@ -4,12 +4,6 @@ body{
   letter-spacing: 3px;
 }
 
-.scrolling{
-  scroll-behavior: smooth;
-  overflow-y: hidden;
-  overflow-x: visible;
-}
-
 #side{
   display: none;
 }
@@ -28,14 +22,6 @@ body{
   margin: auto auto;
 }
 
-#top:hover h4{
-  display: none;
-}
-
-#top:hover .logo {
-  display: block;
-}
-
 .kalam{
   color: black;
   font-family: 'Boogaloo';
@@ -44,34 +30,41 @@ body{
 }
 
 #box{
-  margin-top: 1.5vh;
   margin-left: 5vw;
   margin-right: 5vw;
-  height: calc(53vh + 2.2vh);
-  max-width: 80vw;
-  position: static;
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 3vw;
-  margin-bottom: 8vh;
+  margin-top: -2vh;
+}
+
+.box{
+  display: contents;
+  margin: auto auto;
+  text-align: center;
 }
 
 .img{
-  margin: 0 0;
-  border: #5E747A solid thin;
-  width: calc(35vw + 2.2vw);
-  height: calc(50vh + 2.2vh);
+  display: flex;
+  margin: auto auto;
+  justify-content: center;
+  height: calc(22vh + 2.2vh);
+  padding: 2vh;
+}
+
+.story{
+  font-family: "avenir next";
+  font-weight: 300;
+  font-size: calc(5px + 0.8vh);
+  margin-bottom: 3em;
 }
 
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(14px + 1vw);
+  font-size: calc(12px + 0.2vw);
   text-decoration: none;
 }
 
 .copyright{
-  font-size: calc(10px + 1vh);
+  font-size: calc(5px + 0.8vh);
 }
 
 .icon{
