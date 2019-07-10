@@ -54,6 +54,7 @@ body{
 #top{
   margin: auto auto;
   text-align: center;
+  width: 15vw;
   height: 5vh;
   margin-bottom: 7vh;
   position: sticky;
