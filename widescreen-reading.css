@@ -17,7 +17,7 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(10px + 0.2vw);
+  font-size: 2vh;
   text-decoration: none;
 }
 
@@ -27,14 +27,14 @@ body{
 }
 
 .underline{
-  width: 100px;
+  width: 7vw;
   margin-bottom: calc(40px + 0.1vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: calc(100px + 0.1vw);
+  width: 7vw;
   height: 1.7px;
   background-color: black;
 }
@@ -81,7 +81,7 @@ body{
 }
 
 #box{
-  margin-top: 7vh;
+  margin-top: 4vh;
   margin-left: 15vw;
   height: 50vh;
   max-width: 72vw;
@@ -99,7 +99,7 @@ body{
 }
 
 footer{
-  margin-top: 11.3vh;
+  margin-top: 11vh;
 }
 
 .copyright{

@@ -17,7 +17,7 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: calc(10px + 0.2vw);
+  font-size: 2vh;
   text-decoration: none;
 }
 
@@ -27,14 +27,14 @@ body{
 }
 
 .underline{
-  width: 100px;
+  width: 7vw;
   margin-bottom: calc(40px + 0.1vw);
 }
 
 .underline::after{
   display: block;
   content: "";
-  width: calc(100px + 0.1vw);
+  width: 7vw;
   height: 1.7px;
   background-color: black;
 }
@@ -81,7 +81,7 @@ body{
 }
 
 #box{
-  margin-top: 9vh;
+  margin-top: 8vh;
   position: static;
 }
 
@@ -95,7 +95,7 @@ body{
 .img{
   margin-top: 2vh;
   margin-bottom: 2vh;
-  height: calc(30vh + 0.2vw);
+  height: 32vh;
 }
 
 .img:hover{
@@ -116,7 +116,7 @@ body{
 }
 
 .bigger{
-  font-size: calc(10px + 0.2vw);
+  font-size: 2.1vh;
 }
 
 .avenir{
@@ -126,7 +126,7 @@ body{
 }
 
 footer{
-  margin-top: 15vh;
+  margin-top: 14vh;
 }
 
 .copyright{
