@@ -83,6 +83,7 @@ body{
 
 #box{
   margin-top: 8vh;
+  margin-left: 15vw;
   position: static;
 }
 
@@ -127,7 +128,7 @@ body{
 }
 
 footer{
-  margin-top: 15vh;
+  margin-top: 16vh;
 }
 
 .copyright{
