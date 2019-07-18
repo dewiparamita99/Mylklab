@@ -17,7 +17,7 @@ body{
 .caveat{
   color: black;
   font-family: "caveat";
-  font-size: 2vh;
+  font-size: 1.8vh;
   text-decoration: none;
 }
 
@@ -114,9 +114,10 @@ body{
 
 .story{
   white-space: pre-wrap;
+  height: 40vh;
   font-family: "avenir next";
   font-weight: 300;
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
 
 footer{
@@ -141,4 +142,40 @@ footer{
 
 .icon:hover{
   color: #5E747A;
+}
+
+.buttons{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+}
+
+#cbutton, #fbutton{
+  margin: 0 0;
+  font-family: "avenir next";
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 1.8vh;
+  cursor: pointer;
+  padding: 1.5vh;
+}
+
+#cbutton:active, #fbutton:active{
+  background: #5E747A;
+  color:white;
+  font-weight: 500;
+}
+
+.overlayFounder{
+  height: 50%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  background-color: rgba(255,255,255, 1);
+  overflow: hidden;
+}
+
+.showfounder{
+  height: 100%;
 }

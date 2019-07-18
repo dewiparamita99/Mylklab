@@ -88,12 +88,41 @@
     <!--Showcase-->
 
     <div id="box">
-      <div class="box">
-        <img class="img" src="oat.png">
-        <h4 class="story scrolling">Mylk Lab is an emerging brand focused on plant-based food and beverages. Founder Dewi Paramita combines her "calling", "personality", and "skills" into this brand, pour her truest self in hope to provide, inspire, educate, and make an impact to as many people to live a healthy lifestyle.
-        <br><br>In Mylk Lab, we aim to deliver <i>healthy, organic, </i>and <i> pure</i>  products for our customer. We extremely proud to present "fresh" and "locally handmade" products using excellent raw quality produces <i>without</i> preservatives, additives, fillers, carrageans, and many other unnecessary ingredients.
-        <br><br>Change is what we demand to do, for better health, for more of a laughter, for a whole new experience. <br><br> #MylkLabforChange </h4>
+      <!--Overlay Content-->
+        <div id="myFounder" class="overlayFounder">
+          <div class="box">
+            <img class="img" src="dewi.jpg" alt="">
+          <div>
+            <div class="buttons">
+              <a href="javascript:void(0)" class="caveat" onclick="closeFounder()"><h4 id="cbutton">Company</h4></a>
+              <h4 id="fbutton" style="font-weight:500; background:#5E747A; color:white;">Founder</h4>
+            </div>
+            <div class="text">
+            <h4 class="story scrolling">Dewi Paramita is the mother behind Mylk Lab. She born in Indonesia 1997 . As someone who has gone through a job, success of a career, ups and downs of life at quite a young age; She found her calling. She then starts studying nutrition and continous research.
+          <br>INFP + Ox Zodiac, she believes combining her personality, skills, passion, and aspirations will help her share her mission to help young generation aware of their diet and older generation to concern, alert, and selective with what they consume.
+          <br>Mylk Lab born with intention to inspire and educate as many people possible. Dewi hopes it could make an impact, save lives, grant you a second chance.
+          <br>At last, it is all about balance. And it is you who can create😉</h4>
+            </div>
+          </div>
+        </div>
       </div>
+
+        <div class="box">
+          <img class="img" src="logo.jpg" alt="">
+            <div>
+              <div class="buttons">
+                <h4 id="cbutton" style="font-weight:500; background:#5E747A; color:white;">Company</h4>
+                <h4 id="fbutton" onclick="openFounder()">Founder</h4>
+              </div>
+              <div class="text">
+                <h4 class="story scrolling">Mylk Lab is an emerging brand focused on plant-based food and beverages. Our logo symbolize a healthy heartbeat of a human. Which we hope could patronize a movement of investing in healthy living and being, through a message we deliver to <i>you</i>.
+                <br><br>In Mylk Lab, we aim to deliver <i>healthy, organic, </i>and <i> pure</i> products for our customer. We extremely proud to present "fresh" and "locally handmade" products using excellent raw quality produces <i>without</i> preservatives, additives, fillers, carrageans, and many other unnecessary ingredients. <br>All our prodcuts are thoughtfully designed and packed in sustainable packaging possible.
+                <br><br>Change is what we demand to do, for better health, for more of a laughter, for a whole new experience. <br><br>#MylkLabforChange #experienceGOODNESS</h4>
+              </div>
+          </div>
+        </div>
+
+
     </div>
 
     <!--Footer-->
@@ -115,6 +144,14 @@
 
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
+    }
+
+    function openFounder() {
+      document.getElementById("myFounder").style.height = "100%";
+    }
+
+    function closeFounder() {
+      document.getElementById("myFounder").style.height = "0%";
     }
     </script>
 

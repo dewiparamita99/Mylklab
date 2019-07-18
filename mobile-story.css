@@ -128,3 +128,21 @@ footer{
   padding: 1vw;
   margin-left: 5vw;
 }
+
+#fbutton, #cbutton{
+  cursor: pointer;
+}
+
+.overlayFounder{
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  background-color: rgba(255,255,255, 1);
+  overflow: hidden;
+}
+
+.showfounder{
+  height: 100%;
+}
