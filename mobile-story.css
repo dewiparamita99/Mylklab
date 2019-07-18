@@ -129,13 +129,31 @@ footer{
   margin-left: 5vw;
 }
 
-#fbutton, #cbutton{
+.buttons{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+}
+
+#cbutton, #fbutton{
+  margin: 0 0;
+  font-family: "avenir next";
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: calc(5px + 0.8vh);
   cursor: pointer;
+  padding: 1vh;
+}
+
+#cbutton:active, #fbutton:active{
+  background: #5E747A;
+  color:white;
+  font-weight: 500;
 }
 
 .overlayFounder{
-  height: 0%;
-  width: 100%;
+  height: 100%;
   position: fixed;
   z-index: 1;
   background-color: white;
