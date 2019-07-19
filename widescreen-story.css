@@ -121,6 +121,7 @@ body{
 }
 
 footer{
+  position: relative;
   z-index: 4;
   margin-top: 13vh;
 }
@@ -169,7 +170,7 @@ footer{
 }
 
 .overlayFounder{
-  height: 50%;
+  height: 0%;
   position: fixed;
   z-index: 1;
   background-color: white;
@@ -178,5 +179,5 @@ footer{
 }
 
 .content{
-  z-index: 3;
+  z-index: 99999;
 }
