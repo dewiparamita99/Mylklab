@@ -76,6 +76,7 @@ body{
 }
 
 footer{
+  z-index: 3;
   position: sticky;
   bottom: 1vh;
   margin: auto auto;
