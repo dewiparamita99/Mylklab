@@ -78,7 +78,7 @@ body{
 footer{
   z-index: 4;
   position: relative;
-  bottom: 1vh;
+  bottom: 0;
   margin: auto auto;
   line-height: 5vh;
   text-align: center;

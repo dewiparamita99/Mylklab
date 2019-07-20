@@ -95,6 +95,7 @@ body{
 }
 
 footer{
+  bottom: 0;
   margin: auto auto;
   line-height: calc(3vh + 2vw);
   text-align: center;
