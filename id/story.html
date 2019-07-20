@@ -88,12 +88,39 @@
     <!--Showcase-->
 
     <div id="box">
-      <div class="box">
-        <img class="img" src="../oat.png">
-        <h4 class="story scrolling">Mylk Lab adalah merek baru yang berfokus pada makanan dan minuman nabati. Pendiri Dewi Paramita menggabungkan "panggilan", "kepribadian", dan "keterampilan"-nya dalam <i>brand</i> ini, ia berharap dapat menginspirasi, mendidik, dan memberi dampak pada orang sebanyak-banyaknya agar dapat menjalani gaya hidup sehat.
-        <br><br>Di Mylk Lab, kami bertujuan untuk memberikan produk <i> sehat, organik, </i> dan <i> murni </i> untuk pelanggan kami. Kami sangat bangga mempersembahkan produk-produk "segar" dan "lokal" dengan menggunakan kualitas premium tanpa pengawet, aditif, pengisi, karagenan, dan bahan lainnya yang tidak diperlukan.
-        <br><br>Kami menuntut perubahan, untuk kesehatan yang lebih baik, untuk lebih banyak tawa, untuk pengalaman baru.<br><br>#MylkLabUntukPerubahan </h4>
+      <!--Overlay Content-->
+        <div id="myFounder" class="overlayFounder">
+          <div class="box content">
+            <img class="img" src="../dewi.jpg" alt="">
+          <div>
+            <div class="buttons">
+              <a href="javascript:void(0)" class="caveat" onclick="closeFounder()"><h4 id="cbutton">Company</h4></a>
+              <h4 id="fbutton" style="font-weight:500; background:#5E747A; color:white;">Founder</h4>
+            </div>
+            <div class="text">
+            <h4 class="story scrolling">Dewi Paramita adalah ibu di balik Mylk Lab. Ia lahir di Indonesia, 1997. Sebagai seseorang yang telah menjalani pekerjaan, kesuksesan dalam karir, naik turunnya kehidupan di usia yang cukup muda; Dia menemukan panggilannya. Dia kemudian mulai mempelajari nutrisi dan penelitian yang terus berkelanjutan.
+              <br><br>INFP + Ox Zodiac, dia percaya bahwa dengan menggabungkan kepribadian, keterampilan, hasrat, dan aspirasi; akan membantunya berbagi misinya untuk membantu generasi muda untuk dapat menyadari pentingnya diet dan generasi yang lebih tua untuk mulai peduli, waspada, dan selektif dengan apa yang mereka konsumsi.
+              <br><br>Mylk Lab lahir dengan niat untuk menginspirasi dan mendidik orang sebanyak-banyaknya. Dewi berharap niatnya dapat membuat dampak, menyelamatkan hidup, memberi Anda kesempatan kedua.
+              <br><br>Terakhir, semua adalah tentang keseimbangan. Dewi dan Co.tidak dapat membuat hidup Anda seimbang. Apakah Anda akan menyeimbangkannya? 😀 Kami bisa bantu😊</h4>
+            </div>
+          </div>
+        </div>
       </div>
+
+        <div class="box">
+          <img class="img" src="../logo.jpg" alt="">
+            <div>
+              <div class="buttons">
+                <h4 id="cbutton" style="font-weight:500; background:#5E747A; color:white;">Company</h4>
+                <h4 id="fbutton" onclick="openFounder()">Founder</h4>
+              </div>
+              <div class="text">
+                <h4 class="story scrolling">Mylk Lab adalah merek baru yang berfokus pada makanan dan minuman nabati. Logo kami melambangkan detak jantung manusia yang sehat; yang kami harap dapat mendukung gerakan untuk berinvestasi pada hidup sehat, melalui pesan yang kami sampaikan kepada <i>Anda</i>.
+                <br><br>Di Mylk Lab, kami bertujuan untuk memberikan produk <i> sehat, organik, </i> dan <i> murni </i> untuk pelanggan kami. Kami sangat bangga mempersembahkan produk-produk "segar" dan "lokal" dengan menggunakan kualitas premium tanpa pengawet, aditif, pengisi, karagenan, dan zat lainnya yang tidak diperlukan. Semua produk kami dirancang dengan cermat dan dikemas dalam kemasan yang berkelanjutan.
+                <br><br>Kami menuntut perubahan, untuk kesehatan yang lebih baik, untuk lebih banyak tawa, untuk pengalaman baru.<br><br>#MylkLabUntukPerubahan #alamiKEBAIKAN</h4>
+              </div>
+          </div>
+        </div>
     </div>
 
     <!--Footer-->
@@ -116,6 +143,15 @@
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
     }
+
+    function openFounder() {
+      document.getElementById("myFounder").style.height = "100%";
+    }
+
+    function closeFounder() {
+      document.getElementById("myFounder").style.height = "0%";
+    }
+
     </script>
 
   </body>
